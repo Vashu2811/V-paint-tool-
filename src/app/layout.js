@@ -8,7 +8,7 @@ const itim = Itim({
 });
 
 export const metadata = {
-  title: "InkSync",
+  title: "VPaint",
   description: "A collaborative whiteboard for everyone.",
   manifest: "/manifest.json",
 };

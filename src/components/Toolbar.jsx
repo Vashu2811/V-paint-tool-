@@ -69,7 +69,7 @@ const Toolbar = ({
     return (
         <div className=" w-full z-20">
             <div className="flex flex-row p-5 justify-between w-[90vw] gap-5 md:gap-8 ">
-                <Image src={"/logo.webp"} width={200} height={200} alt="logo" className=" select-none hidden md:block" />
+                {/* <Image src={"/"} width={200} height={200} alt="logo" className=" select-none hidden md:block" /> */}
                 <div className="flex flex-row gap-4 md:gap-8">
                     <div className="flex flex-row-reverse md:flex-row bg-secondary rounded-lg p-1 gap-1 max-h-11">
                         {
@@ -111,7 +111,7 @@ const Toolbar = ({
                     </div>
                     <div className="flex flex-row gap-5 max-h-11 max-sm:fixed bottom-4 left-4">
                         <Session userName={userName} setUserName={setUserName} isLive={isLive} setIsLive={setIsLive} params={params} />
-                        <Chat isLive={isLive} params={params} sendMessage={sendMessage} messages={messages} socketId={socketId} />
+                        {/* <Chat isLive={isLive} params={params} sendMessage={sendMessage} messages={messages} socketId={socketId} /> */}
                     </div>
                 </div>
                 <div />
